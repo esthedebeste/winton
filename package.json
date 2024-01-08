@@ -1,0 +1,16 @@
+{
+	"name": "winton",
+	"version": "1.0.0",
+	"description": "",
+	"main": "winton.js",
+	"scripts": {
+		"start": "node winton.js"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "MIT",
+	"dependencies": {
+		"koa": "^2.15.0"
+	},
+	"type": "module"
+}
