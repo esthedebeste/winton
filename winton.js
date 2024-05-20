@@ -6,4 +6,5 @@ app.use(async ctx => {
 	ctx.set("Content-Type", "image/jpeg")
 	ctx.body = winton
 })
-app.listen(80)
+const port = Number(process.env.PORT || 3000)
+app.listen(port)
